@@ -13,8 +13,10 @@ public class FoodController {
                 new Food("hamburger","meat&bread&cheese","USA"),
                 new Food("pizza","tomato&bread&cheese","Italy"),
                 new Food("sushi","fish&rice","Japan"),
-                new Food("curry","spices","India")
+                new Food("curry","spices&vegetables","India")
         );
         return foods;
     }
 }
+
+
