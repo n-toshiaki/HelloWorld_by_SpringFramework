@@ -1,27 +1,14 @@
 package com.hello.hello;
 
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+
+@AllArgsConstructor
 public class Food {
+    @Getter
     private String name;
-
+    @Getter
     private String materials;
-
+    @Getter
     private String country;
-
-    public Food(String name, String materials, String country) {
-        this.name = name;
-        this.materials = materials;
-        this.country = country;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public String getMaterials() {
-        return materials;
-    }
-
-    public String getCountry() {
-        return country;
-    }
 }
