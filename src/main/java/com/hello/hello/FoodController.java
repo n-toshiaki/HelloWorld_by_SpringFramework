@@ -8,7 +8,7 @@ import java.util.List;
 @RestController
 public class FoodController {
 
-    @GetMapping("/hello")
+    @GetMapping("/food")
     public List<Food> food() {
         List<Food> foods = List.of(
                 new Food("hamburger", "meat&bread&cheese", "USA"),
