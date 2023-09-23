@@ -25,4 +25,3 @@ public class Food {
         return country;
     }
 }
-
