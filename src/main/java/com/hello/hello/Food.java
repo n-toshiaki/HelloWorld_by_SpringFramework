@@ -4,11 +4,9 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 
 @AllArgsConstructor
+@Getter
 public class Food {
-    @Getter
     private String name;
-    @Getter
     private String materials;
-    @Getter
     private String country;
 }
